@@ -410,6 +410,7 @@ done
 increase_followers() {
 
 printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] This technique consists of following/unfolling celebgrams\e[0m\n"
+printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] It can increase your followers up to about +30 in 1 hour \e[0m\n"
 printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m]\e[0m\e[1;93m Press Ctrl + C to stop \e[0m\n"
 sleep 5
 
@@ -481,7 +482,7 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+sleep 2
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 25 secs...\e[0m\n"
 sleep 25
